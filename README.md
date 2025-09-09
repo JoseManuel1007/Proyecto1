@@ -13,14 +13,40 @@ Este proyecto implementa un simulador solar fotovoltaico en Python que permite:
 
 Haz clic en el siguiente botón para abrir y ejecutar el simulador directamente en Google Colab:
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JoseManuel1007/Proyecto1/blob/main/solar_simulator.py)
-
+<a href="https://colab.research.google.com/github/JoseManuel1007/Proyecto1/blob/main/solar_simulator.ipynb" target="_parent">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ---
 
 ## Archivos generados
 
 - `sim_YYYYMMDD.csv` → Resultados de la simulación en formato tabular (tiempo, altitud, azimut, irradiancia, potencia).  
+- Carpeta `graficas_YYYY-MM-DD/` con:
+  - `altitud_vs_hora.png`
+  - `azimut_vs_hora.png`
+  - `irradiancia_vs_hora.png`
+  - `potencia_vs_hora.png`
+  - `energia_acumulada.png`
+
+---
+
+## Dependencias
+
+El código utiliza únicamente librerías estándar de **Python 3.x**:
+
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `datetime`
+- `os`
+
+En Google Colab ya están preinstaladas.  
+En ejecución local, se pueden instalar con:
+
+```bash
+pip install numpy pandas matplotlib
+ irradiancia, potencia).  
 - Carpeta `graficas_YYYY-MM-DD/` con:
   - `altitud_vs_hora.png`
   - `azimut_vs_hora.png`
