@@ -17,3 +17,5 @@ Este proyecto implementa un **simulador solar fotovoltaico** en Python que permi
 
 ```python
 !python solar_simulator.py
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USUARIO/REPO/blob/main/solar_simulator.ipynb)
+
