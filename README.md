@@ -1,17 +1,19 @@
-# Simulador de Energía Solar Fotovoltaica
+# Simulador Solar Fotovoltaico en Python
 
-Proyecto: Simulación de posición solar, irradiancia y producción fotovoltaica.
+Este proyecto implementa un **simulador solar fotovoltaico** en Python que permite:
 
-## Estructura
-- `solar_simulator_colab.py` — script principal (ejecución CLI o demo).
-- `/figures` — (salida) gráficas generadas.
-- `/data` — (opcional) archivos de entrada.
-- `README.md` — este archivo.
+- Calcular la **posición del sol** (altitud y azimut) en una ubicación y hora específicas.
+- Estimar la **irradiancia incidente** sobre un panel solar con inclinación y orientación definidas.
+- Simular la **producción de energía fotovoltaica** a lo largo de un día.
+- Generar **gráficas y reportes CSV** con los resultados de la simulación.
 
-## Requisitos
-- Python 3.8+
-- numpy, pandas, matplotlib
+---
 
-Instalación (opcional):
-```bash
-pip install numpy pandas matplotlib
+## Ejecución en Google Colab
+
+1. Abre [Google Colab](https://colab.research.google.com/).
+2. Carga el archivo `solar_simulator.py` en tu sesión.
+3. Ejecuta el código con:
+
+```python
+!python solar_simulator.py
