@@ -13,10 +13,8 @@ Este proyecto implementa un simulador solar fotovoltaico en Python que permite:
 
 Haz clic en el siguiente botón para abrir y ejecutar el simulador directamente en Google Colab:
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USUARIO/REPO/blob/main/solar_simulator.py)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JoseManuel1007/Proyecto1/blob/main/solar_simulator.py)
 
-> **Nota:** Reemplaza `USUARIO/REPO` por el nombre real de tu usuario y repositorio en GitHub.  
-> Ejemplo: `JoseCriollo/solar-simulator`.
 
 ---
 
